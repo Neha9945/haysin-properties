@@ -1,0 +1,181 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #0b0b0b;
+    color: white;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background: rgba(0,0,0,0.6);
+    backdrop-filter: blur(6px);
+}
+
+.navbar-brand {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+}
+
+.hero {
+    height: 100vh;
+    background: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c') center/cover no-repeat;
+}
+
+.hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 64px;
+}
+
+.btn-gold {
+    background: #C9A24D;
+    color: black;
+    padding: 10px 30px;
+    border-radius: 0;
+}
+
+.about-preview {
+    padding: 100px 20px;
+    background: #111;
+}
+
+footer {
+    background: #000;
+}
+.page-hero {
+    height: 60vh;
+    background: url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c') center/cover no-repeat;
+}
+
+.about-content {
+    padding: 80px 20px;
+    background: #111;
+}
+
+.counters {
+    padding: 80px 20px;
+    background: #0b0b0b;
+}
+
+.counter {
+    font-size: 60px;
+    font-family: 'Playfair Display', serif;
+    color: #C9A24D;
+}
+.amenities-section {
+    padding: 80px 20px;
+    background: #111;
+}
+
+.amenity-card {
+    background: #1a1a1a;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.4s ease;
+    text-align: center;
+    color: white;
+}
+
+.amenity-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.amenity-card h4 {
+    padding: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+.amenity-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(201,162,77,0.3);
+}
+.floor-section {
+    padding: 80px 20px;
+    background: #111;
+}
+
+.floor-card {
+    background: #1a1a1a;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.4s;
+    text-align: center;
+    color: white;
+}
+
+.floor-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.floor-card h4 {
+    padding: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+.floor-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(201,162,77,0.3);
+}
+.gallery-section {
+    padding: 80px 20px;
+    background: #111;
+}
+
+.gallery-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.4s ease;
+}
+
+.gallery-img:hover {
+    transform: scale(1.05);
+}
+.contact-section {
+    padding: 80px 20px;
+    background: #111;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 15px;
+    background: #C9A24D;
+    color: black;
+    border: none;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.navbar {
+    background: rgba(0,0,0,0.85);
+    backdrop-filter: blur(6px);
+}
+
+.nav-link {
+    color: white !important;
+    margin-left: 15px;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #C9A24D !important;
+}
+
+.btn-gold {
+    background: #C9A24D;
+    color: black !important;
+    border-radius: 5px;
+    padding: 8px 15px;
+}
