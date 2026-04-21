@@ -179,3 +179,44 @@ footer {
     border-radius: 5px;
     padding: 8px 15px;
 }
+.hero{
+    height:100vh;
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+    url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c') center/cover no-repeat;
+}
+
+.gold{ color:#C9A24D; }
+
+.why-section{
+    padding:100px 20px;
+    background:#0b0b0b;
+}
+
+.stats{
+    padding:80px 20px;
+    background:#111;
+}
+
+.stats h2{
+    color:#C9A24D;
+    font-size:48px;
+    font-family:'Playfair Display',serif;
+}
+
+.whatsapp-float{
+    position:fixed;
+    bottom:25px;
+    right:25px;
+    background:#25D366;
+    color:white;
+    border-radius:50%;
+    padding:15px 18px;
+    font-size:28px;
+    z-index:999;
+    box-shadow:0 10px 20px rgba(0,0,0,0.3);
+}
+@media(max-width:768px){
+  .hero h1{font-size:38px;}
+  .stats h2{font-size:32px;}
+}
+
