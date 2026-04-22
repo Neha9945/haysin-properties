@@ -386,3 +386,24 @@ p{
     transform:scale(1.1);
 }
 
+.contact-form input,
+.contact-form textarea{
+    background:#1a1a1a;
+    color:white;
+    border:1px solid #333;
+}
+.page-hero{
+    position:relative;
+}
+
+.page-hero::after{
+    content:'';
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,.55);
+}
+
+.page-hero .container{
+    position:relative;
+    z-index:2;
+}
