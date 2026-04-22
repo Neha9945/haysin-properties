@@ -219,4 +219,25 @@ footer {
   .hero h1{font-size:38px;}
   .stats h2{font-size:32px;}
 }
+.parallax{
+    height:60vh;
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+    url('https://images.unsplash.com/photo-1505691723518-36a5ac3b2d6c') center/cover fixed no-repeat;
+}
+
+.testimonials{
+    padding:100px 20px;
+    background:#0b0b0b;
+}
+
+.testimonial-text{
+    font-size:22px;
+    font-style:italic;
+    max-width:800px;
+    margin:0 auto 20px;
+    color:#ddd;
+}
+html{
+    scroll-behavior:smooth;
+}
 
